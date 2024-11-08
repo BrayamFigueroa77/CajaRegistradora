@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Teko:wght@300..700&display=swap');
+
+*{
+    background-color:  rgba(233, 239, 240, 0.979);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgb(223, 237, 170), yellow);
+    margin: 0;
+    padding: 20px;
+}
+
+.principal{
+    margin-inline: auto;
+    height: 117vh;
+    width: 35vw;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+
+}
+.caja-registradora {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    background-color: #f4f4f4;
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+.contenedor {
+    margin-bottom: 0px;
+}
+
+select, input[type=number], input[type=text], input[type=button] {
+    font-family: "Teko", sans-serif;
+    font-size: large;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+
+select {
+    cursor: pointer;
+}
+
+input[type=button] {
+    margin-left: 60px;
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    width: 30%;
+}
+
+input[type=button]:hover {
+    background-color: #218838; /* Verde más oscuro */
+}
+
+input[type=button]:last-child {
+    background-color: #dc3545; /* Rojo */
+}
+
+input[type=button]:last-child:hover {
+    background-color: #c82333; /* Rojo más oscuro */
+}
+
+.cuadro_compra {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border-radius: 5px;
+    padding: 15px;
+    border: solid green;
+    border: none;
+}
+
+#resultado_compra {
+    height: 100px; /* Altura fija para mostrar múltiples líneas */
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+}
+
+#img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
